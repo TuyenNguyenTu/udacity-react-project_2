@@ -5,7 +5,7 @@ describe('getQuestionByID', () => {
     it('getQuestionByID: will return question if successful', async() => {
          
         let result = await getQuestionByID('6ni6ok3ym7mf1p33lnez');
-        expect(result.author).toEqual('mtsamis');
+        expect(result.author).toEqual('henry');
     });
  
 });
@@ -38,7 +38,7 @@ describe('_saveQuestionAnswer', () => {
     it('_saveQuestionAnswer: will return true if successful', async() => {
         let object = {
             ans: "optionOne",
-            authedUser: "mtsamis",
+            authedUser: "henry",
             qid: "xj352vofupe1dqz9emx13r",
         }
         let result = await _saveQuestionAnswer(object);

@@ -1,6 +1,6 @@
 let users = {
-    sarahedo: {
-      id: 'sarahedo',
+    tuyennt30: {
+      id: 'tuyennt30',
       password:'password123',
       name: 'Sarah Edo',
       avatarURL: 'https://img.freepik.com/premium-vector/cute-smiling-boy-avatar-flat-style-vector-illustration_710508-1241.jpg',
@@ -12,8 +12,8 @@ let users = {
       },
       questions: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
     },
-    tylermcginnis: {
-      id: 'tylermcginnis',
+    tokuda: {
+      id: 'tokuda',
       password:'abc321',
       name: 'Tyler McGinnis',
       avatarURL: 'https://static.vecteezy.com/system/resources/previews/005/026/528/non_2x/illustration-female-avatar-in-flat-style-free-vector.jpg',
@@ -50,10 +50,10 @@ let users = {
   let questions = {
     "8xf0y6ziyjabvozdd253nd": {
       id: '8xf0y6ziyjabvozdd253nd',
-      author: 'sarahedo',
+      author: 'tuyennt30',
       timestamp: 1467166872634,
       optionOne: {
-        votes: ['sarahedo'],
+        votes: ['tuyennt30'],
         text: 'Build our new application with Javascript',
       },
       optionTwo: {
@@ -70,42 +70,42 @@ let users = {
         text: 'hire more frontend developers',
       },
       optionTwo: {
-        votes: ['mtsamis', 'sarahedo'],
+        votes: ['mtsamis', 'tuyennt30'],
         text: 'hire more backend developers'
       }
     },
     "am8ehyc8byjqgar0jgpub9": {
       id: 'am8ehyc8byjqgar0jgpub9',
-      author: 'sarahedo',
+      author: 'tuyennt30',
       timestamp: 1488579767190,
       optionOne: {
         votes: [],
         text: 'conduct a release retrospective 1 week after a release',
       },
       optionTwo: {
-        votes: ['sarahedo'],
+        votes: ['tuyennt30'],
         text: 'conduct release retrospectives quarterly'
       }
     },
     "loxhs1bqm25b708cmbf3g": {
       id: 'loxhs1bqm25b708cmbf3g',
-      author: 'tylermcginnis',
+      author: 'tokuda',
       timestamp: 1482579767190,
       optionOne: {
         votes: [],
         text: 'have code reviews conducted by peers',
       },
       optionTwo: {
-        votes: ['sarahedo'],
+        votes: ['tuyennt30'],
         text: 'have code reviews conducted by managers'
       }
     },
     "vthrdm985a262al8qx3do": {
       id: 'vthrdm985a262al8qx3do',
-      author: 'tylermcginnis',
+      author: 'tokuda',
       timestamp: 1489579767190,
       optionOne: {
-        votes: ['tylermcginnis'],
+        votes: ['tokuda'],
         text: 'take a course on ReactJS',
       },
       optionTwo: {
@@ -122,7 +122,7 @@ let users = {
         text: 'deploy to production once every two weeks',
       },
       optionTwo: {
-        votes: ['tylermcginnis'],
+        votes: ['tokuda'],
         text: 'deploy to production once every month'
       }
     },
