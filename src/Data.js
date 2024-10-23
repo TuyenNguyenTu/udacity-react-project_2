@@ -23,8 +23,8 @@ let users = {
       },
       questions: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do'],
     },
-    mtsamis: {
-      id: 'mtsamis',
+    henry: {
+      id: 'henry',
       password:'xyz123',
       name: 'Mike Tsamis',
       avatarURL: 'https://cdni.iconscout.com/illustration/premium/thumb/business-woman-5373575-4498296.png',
@@ -63,14 +63,14 @@ let users = {
     },
     "6ni6ok3ym7mf1p33lnez": {
       id: '6ni6ok3ym7mf1p33lnez',
-      author: 'mtsamis',
+      author: 'henry',
       timestamp: 1468479767190,
       optionOne: {
         votes: [],
         text: 'hire more frontend developers',
       },
       optionTwo: {
-        votes: ['mtsamis', 'tuyennt30'],
+        votes: ['henry', 'tuyennt30'],
         text: 'hire more backend developers'
       }
     },
@@ -109,16 +109,16 @@ let users = {
         text: 'take a course on ReactJS',
       },
       optionTwo: {
-        votes: ['mtsamis'],
+        votes: ['henry'],
         text: 'take a course on unit testing with Jest'
       }
     },
     "xj352vofupe1dqz9emx13r": {
       id: 'xj352vofupe1dqz9emx13r',
-      author: 'mtsamis',
+      author: 'henry',
       timestamp: 1493579767190,
       optionOne: {
-        votes: ['mtsamis', 'zoshikanlu'],
+        votes: ['henry', 'zoshikanlu'],
         text: 'deploy to production once every two weeks',
       },
       optionTwo: {
