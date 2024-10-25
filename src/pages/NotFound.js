@@ -1,9 +1,7 @@
-import React from 'react'
-
-export default function NotFound() {
-  return (
-    <div class="d-flex align-items-center justify-content-center vh-100 bg-primary">
-      <h1 class="display-1 fw-bold text-white">404</h1>
-    </div>
-  );
+import { NavLink } from "react-router-dom";
+const NotFound = (props) => {
+    return(<div className="alert alert-warning m-3 p-4">
+        Opps! Something went wrong. Back to <NavLink to="/">Home Page</NavLink> here.
+    </div>)
 }
+export default NotFound;
