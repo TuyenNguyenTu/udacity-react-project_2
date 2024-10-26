@@ -57,7 +57,7 @@ const NewQuestion = (props) => {
                 </div>
                 <div className="text-center">
                 <button type="submit" disabled={loading} className="btn btn-primary">
-                    Submit
+                    Create
                 </button>
                 </div>
             </form>
