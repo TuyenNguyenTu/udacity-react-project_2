@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import authedSlice from '../features/auth/authSlice'
-import questionSlice from '../features/question/questionSlice'
-import userSlice from '../features/user/userSlice'
-import loadingSlice from '../features/loading/loadingSlice'
+import authedSlice from '../features/authSlice'
+import questionSlice from '../features/questionSlice'
+import userSlice from '../features/userSlice'
+import loadingSlice from '../features/loadingSlice'
 
 export const store = configureStore({
   reducer: {

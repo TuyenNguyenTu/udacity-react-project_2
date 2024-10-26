@@ -47,7 +47,7 @@ const HomePage = (props) => {
             onChange={() => setIsDefaultView(true)}
           />
           <label className="btn btn-outline-primary" htmlFor="btnradio1">
-            Unanswered
+            Questions
           </label>
           <input
             type="radio"
@@ -59,7 +59,7 @@ const HomePage = (props) => {
             onChange={() => setIsDefaultView(false)}
           />
           <label className="btn btn-outline-primary" htmlFor="btnradio2">
-            Answered
+            Questions Completed
           </label>
         </div>
         {

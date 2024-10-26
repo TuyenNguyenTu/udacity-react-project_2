@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { saveQuestion } from "../features/question/questionSlice";
+import { saveQuestion } from "../features/questionSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router";
-import { addUserQuestion } from "../features/user/userSlice";
+import { addUserQuestion } from "../features/userSlice";
 const NewQuestion = (props) => {
     const authedId = useSelector(state => state.auth.authedId);
     const [optionOne, setOptionOne] = useState('');

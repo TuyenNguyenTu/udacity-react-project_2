@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router";
-import { login } from "../features/auth/authSlice";
+import { login } from "../features/authSlice";
 
 const LoginPage = () => {
     const [username, setUsername] = useState('');

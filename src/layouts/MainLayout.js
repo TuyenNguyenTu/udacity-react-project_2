@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Outlet, NavLink, useNavigate, useLocation } from "react-router-dom";
-import { fetchUsers } from "../features/user/userSlice";
-import { setAuthedUser } from "../features/auth/authSlice";
-import { fetchQuestions } from "../features/question/questionSlice";
+import { fetchUsers } from "../features/userSlice";
+import { setAuthedUser } from "../features/authSlice";
+import { fetchQuestions } from "../features/questionSlice";
 function MainLayout() {
     const navigate = useNavigate();
     const authedUser = useSelector(state => state.auth.authedUser);
