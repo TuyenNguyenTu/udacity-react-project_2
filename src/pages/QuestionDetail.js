@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { _saveQuestionAnswer } from "../api/_DATA";
+import { _saveQuestionAnswer } from "../app/_DATA";
 import { fetchUsers } from "../features/user/userSlice";
 import { fetchQuestions } from "../features/question/questionSlice";
 import NotFound from "./NotFound";
@@ -21,6 +21,7 @@ const QuestionDetail = (props) => {
       qid: question_id,
       answer: option,
     };
+    
     _saveQuestionAnswer(answer).then(async (rs) => {
         setLoading(true);
         await dispatch(fetchUsers());

@@ -13,6 +13,7 @@ const LeaderBoard = () => {
         ).sort((a,b) => (b.ansNum + b.quesNum) - (a.ansNum + a.quesNum));
         setListUser(lu);
     },[users])
+    
     return (
       <div>
         <h1 className="mb-5 text-center">Leader Board</h1>

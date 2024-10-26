@@ -12,7 +12,7 @@ const QuestionCategory = (props) => {
                     </div>
                 ))
                 : (<div className="col-md-12">
-                    <div className="alert alert-info">Opps. There're nothing here</div>
+                    <div className="alert alert-info">Oh noooo!!!. There're nothing here</div>
                 </div>)
             }
             </div>

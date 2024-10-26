@@ -18,7 +18,7 @@ const Question =  (props) => {
                 <div>{formatDate(question.timestamp)}</div>
                 </div>
                 <div className="d-grid">
-                    <button className="btn btn-primary" type="button" onClick={handleShow}>Show</button>
+                    <button className="btn btn-primary" type="button" onClick={handleShow}>View</button>
                 </div>
             </div>
         </div>)

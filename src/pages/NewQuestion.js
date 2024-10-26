@@ -34,22 +34,22 @@ const NewQuestion = (props) => {
             <div className="col-md-8">
             <form className="card border rounded p-3" onSubmit={handleSaveQuestion}>
                 <div className="mb-3">
-                <label className="form-label">Option One</label>
+                <label className="form-label">Option 1</label>
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="Option One"
+                    placeholder="Option 1"
                     required
                     value={optionOne}
                     onChange={(e) => setOptionOne(e.target.value)}
                 />
                 </div>
                 <div className="mb-3">
-                <label className="form-label">Option Two</label>
+                <label className="form-label">Option 2</label>
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="Option Two"
+                    placeholder="Option 2"
                     required
                     value={optionTwo}
                     onChange={(e) => setOptionTwo(e.target.value)}

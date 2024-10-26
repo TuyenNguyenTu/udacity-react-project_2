@@ -13,19 +13,19 @@ const HomePage = (props) => {
 
     useEffect(() => {
         if(questions) {
-            let newQ = [];
-            let doneQ = [];
+            let newQuestion = [];
+            let doneQuestion = [];
             Object.keys(questions).forEach((key) => {
                 let q = {...questions[key]};
                 q.user = users[q.author];
                 if (q.optionOne.votes.indexOf(authedId) < 0 && q.optionTwo.votes.indexOf(authedId) <0) {
-                    newQ.push(q);
+                  newQuestion.push(q);
                 } else {
-                    doneQ.push(q);
+                  doneQuestion.push(q);
                 }
             })
-            setNewQuestions(newQ.sort((a, b) => b.timestamp - a.timestamp));
-            setDoneQuestions(doneQ.sort((a, b) => b.timestamp - a.timestamp));
+            setNewQuestions(newQuestion.sort((a, b) => b.timestamp - a.timestamp));
+            setDoneQuestions(doneQuestion.sort((a, b) => b.timestamp - a.timestamp));
         }
 
     }, [dispatch, authedId, users, questions])

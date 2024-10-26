@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { _getQuestions, _saveQuestion, _saveQuestionAnswer } from "../../api/_DATA";
+import { _getQuestions, _saveQuestion, _saveQuestionAnswer } from "../../app/_DATA";
 export const saveQuestion = createAsyncThunk(
     'question/save',
     async (question) => {

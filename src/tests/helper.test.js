@@ -1,10 +1,10 @@
 import { formatDate } from "../helpers/dateTimeHelper";
-import { formatQuestion } from "../api/_DATA";
+import { formatQuestion } from "../app/_DATA";
 
 describe('formatDate', () => {
     test('Format the date', () => {
         var result = formatDate(1467166872634);
-        expect(result).toEqual('9:21:AM | 6/29/2016');
+        expect(result).toEqual('09:21 AM | 6/29/2016');
     });
 })
 

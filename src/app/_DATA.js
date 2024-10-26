@@ -39,11 +39,11 @@ let users = {
       id: 'yasuo',
       password:'pass246',
       name: 'Zenobia Oshikanlu',
-      avatarURL: "https://assets.allcode.com/wp-content/uploads/2021/07/top-aws-service-list-2023-scaled.webp",
+      avatarURL: "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin18/images/yasuo_splash_tile_18.jpg",
       answers: {
         "xj352vofupe1dqz9xyz23r": 'optionOne',
       },
-      questions: [],
+      questions: ['vxhrdm985a128al8qx3dz'],
     }
   }
   
@@ -124,6 +124,19 @@ let users = {
       optionTwo: {
         votes: ['tylermcginnis'],
         text: 'Cristiano Ronaldo will coach you in football'
+      }
+    },
+    "vxhrdm985a128al8qx3dz": {
+      id: 'vxhrdm985a128al8qx3dz',
+      author: 'yasuo',
+      timestamp: 1489579767190,
+      optionOne: {
+        votes: ['tylermcginnis'],
+        text: 'Play League of Legends twice a week',
+      },
+      optionTwo: {
+        votes: ['leonel'],
+        text: 'Played League of Legends 3 times a week'
       }
     },
   }
