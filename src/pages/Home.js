@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import QuestionCategory from "../components/QuestionCategory";
-const HomePage = (props) => {
+
+const HomePage = () => {
     const [newQuestions, setNewQuestions] = useState([]);
     const [doneQuestions, setDoneQuestions] = useState([]);
     const authedId = useSelector(state => state.auth.authedId);
@@ -31,7 +32,7 @@ const HomePage = (props) => {
     }, [dispatch, authedId, users, questions])
 
     return (
-      <div className="home-page">
+      <div className="home">
         <div
           className="btn-group"
           role="group"
@@ -65,7 +66,7 @@ const HomePage = (props) => {
         {
             isDefaultView 
             ? (<QuestionCategory title="New Questions" questions={newQuestions} />)
-            : (<QuestionCategory title= "Done" questions={doneQuestions} />)
+            : (<QuestionCategory title= "Questions Completed" questions={doneQuestions} />)
         }
       </div>
     );
